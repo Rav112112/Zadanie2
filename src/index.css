@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(255, 255, 250);
+  left:0;
+  margin:0;
+}
+
+.product {
+  background-color: rgb(214, 214, 214);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 2);
+  padding: 0 0.7rem 0.4rem 0.7rem;
+  margin: 1rem;
+  width: 50%;
+  margin-left: 24%;
+  position: relative;
+  float: left;
+
+}
+
+.form{
+  padding-top: 6rem;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.nameSearch{
+  border-radius: 6px;
+  font-size: 1.5rem;
+  width: 50rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.priceSearch{
+  border-radius: 6px;
+  font-size: 1.5rem;
+  width: 20rem;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.productsPart{
+  margin-top: 2rem;
+}
+
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  margin: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #026620;
+  color: white;
+  border: 1px solid #000000;
+  float: right;
+  
+}
+
+.btn:hover {
+  background-color: #008d2a;
+}
+
+.navigationBar{
+  width: 100%;
+  height: 2.5rem;
+  background-color: rgb(187, 187, 187);
+  padding: 1rem;
+  left:0 ;
+  position: fixed;
+  z-index: 1;
+}
+
+.menu{
+  float: right;
+  width: 15%;
+  margin-right: 2%;
+  background-color: rgb(179, 179, 179);
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 2);
+  font-size: 1.5rem;
+  padding: 0.3rem 2rem 0.3rem 2rem;
+}
+
+.openedMenu{
+  float: left;
+  margin-top: 1rem;
+  background-color: rgb(179, 179, 179);
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 2);
+  height: 2rem;
+  font-size: 1.5rem;
+  padding: 0.3rem 2rem 0.3rem 2rem;
+}
+
+.row{
+  margin-top: 1rem;
+}
+
+.col-2{
+  margin-top: 0.2rem;
+}
+
+img{
+  max-width: 24rem;
+  max-height: 24rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 2);
+}
+
+.productDetails{
+  float: left;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  margin-top: 5rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 2);
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: rgb(214, 214, 214);
+}
+
+.productImage{
+  float: left;
+  width: 30%;
+}
+
+.productDescryption{
+  float: left;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 0 0 2px #FF0000, 0 0 2px #0000FF;
+}
+
+.badge{
+  background-color: #FF0000;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  color: white;
+  float: right;
+  font-size: 1.1rem;
+ 
+}
+.plusMinus{
+  margin: 0.2rem;
+}
